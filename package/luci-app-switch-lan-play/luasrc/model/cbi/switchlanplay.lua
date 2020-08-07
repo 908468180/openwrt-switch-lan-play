@@ -48,7 +48,18 @@ end
 
 relay_server_host = s:option(Value, "relay_server_host", translate("relay_server_host"), translate("Relay Host - IP address or domain name (Required)"))
     relay_server_host.datatype="host"
-    relay_server_host.default="127.0.0.1"
+    relay_server_host:value("lanplay.verdandi.icu",translate("主服务器1"))
+    relay_server_host:value("lanplayer.verdandi.icu",translate("主服务器2"))
+    relay_server_host:value("lanplay-animal.verdandi.icu",translate("动森专线"))
+    relay_server_host:value("lanplay-diablo.verdandi.icu",translate("暗黑专线"))
+    relay_server_host:value("alonly.top",translate("alonly.top"))
+    relay_server_host:value("yordon.f3322.net",translate("yordon.f3322.net"))
+    relay_server_host:value("gz.wsgdsg.best",translate("gz.wsgdsg.best"))
+    relay_server_host:value("47.102.149.136",translate("47.102.149.136"))
+    relay_server_host:value("129.204.119.249",translate("129.204.119.249"))
+    relay_server_host:value("175.24.85.214",translate("175.24.85.214"))
+    relay_server_host:value("210.22.163.54",translate("210.22.163.54"))
+    relay_server_host.default="lanplay.verdandi.icu"
     relay_server_host.rmempty="false"
 
 relay_server_port = s:option(Value, "relay_server_port", translate("relay_server_port"),translate("Server Port (Required)"))
