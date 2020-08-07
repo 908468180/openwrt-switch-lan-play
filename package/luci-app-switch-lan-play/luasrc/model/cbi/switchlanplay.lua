@@ -54,7 +54,6 @@ relay_server_host = s:option(Value, "relay_server_host", translate("relay_server
     relay_server_host:value("lanplay-diablo.verdandi.icu",translate("暗黑专线"))
     relay_server_host:value("alonly.top",translate("alonly.top"))
     relay_server_host:value("yordon.f3322.net",translate("yordon.f3322.net"))
-    relay_server_host:value("gz.wsgdsg.best",translate("gz.wsgdsg.best"))
     relay_server_host:value("47.102.149.136",translate("47.102.149.136"))
     relay_server_host:value("129.204.119.249",translate("129.204.119.249"))
     relay_server_host:value("175.24.85.214",translate("175.24.85.214"))
